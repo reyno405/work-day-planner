@@ -3,3 +3,12 @@ var timeSlot = ["09:00:00", "10:00:00", "11:00:00", "12:00:00", "13:00:00",  "14
 var shiftedTimeSlotCollection = ["10:00:00", "11:00:00", "12:00:00", "13:00:00",  "14:00:00",  "15:00:00",  "16:00:00",  "17:00:00",  "18:00:00"];
 var plannerContent = [];
 var getLocalStorageData = json.parse(localStorage.getItem("planner"));
+
+if (getLocalStorageData !== null){
+    plannerContent=getLocalStorageData;
+}
+
+for (var i=0;i<idsCollection.length; i++) {
+    var descriptionEl = $(idsCollection[i]);
+    var buttonEl = descriptionEl.parent().parent().find("button");
+}
