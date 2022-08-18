@@ -40,7 +40,7 @@ WHEN I refresh the page
 THEN the saved events persist
 
 
-# Scrennshot
+# Screenshot
 
 [![127-0-0-1-5500-work-day-planner-index-html.png](https://i.postimg.cc/vB2Y5vBB/127-0-0-1-5500-work-day-planner-index-html.png)](https://postimg.cc/dkdcYrGP)
 
